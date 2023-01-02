@@ -1,0 +1,15 @@
+footer {
+    bottom: 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+
+strong {
+    color: black;
+}
