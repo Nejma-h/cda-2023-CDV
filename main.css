@@ -1,9 +1,20 @@
+body {
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
+}
+
+header {
+    margin-bottom: 5rem;
+}
+
 footer {
     bottom: 0;
 }
 
+
 .footer{
     display: flex;
+    
     justify-content: space-around;
     background-color: gray;
     color: white;
@@ -12,4 +23,31 @@ footer {
 
 strong {
     color: black;
+}
+
+section.container {
+    display: flex;
+    margin: auto;
+    height: 60vh;
+    padding: 5rem;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+}
+
+div.img {
+margin: auto;
+height: 100%;
+width: 50%;
+}
+
+img {
+    
+    
+}
+
+div.content {
+    margin: auto;
 }
