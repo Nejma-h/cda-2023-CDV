@@ -1,0 +1,13 @@
+
+section{
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    border-radius: 15px;
+}
+.tittle-cam{
+    text-align: center;
+}
+video{
+    margin-left: 38vw;
+}
